@@ -7,8 +7,13 @@
     "dev": "XenDACH",
     "dev_url": "http://www.xendach.de",
     "faq_url": "",
-    "support_url": "",
-    "extra_urls": [],
-    "require": [],
+    "support_url": "https://github.com/McAtze/-XenDACH-LimitLanguageUsage/issues",
+    "extra_urls": {
+    	"Issue Tracker": "https://github.com/McAtze/-XenDACH-LimitLanguageUsage/issues"
+    },
+    "require": {
+        "XF": [2000010, "XenForo 2.0.0+"],
+        "php": ["5.5.0", "PHP 5.5.0+"]
+    },
     "icon": "fa-language"
 }
