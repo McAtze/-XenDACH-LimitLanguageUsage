@@ -1,6 +1,6 @@
 # [XenDACH] Limit Language Usage
 
-A better way to limit the language usage by Users.
+A better way to limit the language usage by Users. [Short Video on Vimeo](https://vimeo.com/254733599)
 
 ## Installation
 
@@ -12,5 +12,3 @@ A better way to limit the language usage by Users.
 
 ![Options#1 in ACP](https://maxcdn.it-maku.com/git/llu/QuickChoice.png)
 ![Options#2 in ACP](https://maxcdn.it-maku.com/git/llu/LanguageOptions.png)
-
-[Short Video on Vimeo](https://vimeo.com/254733599)
