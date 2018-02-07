@@ -1,0 +1,12 @@
+{
+    "src/addons/XenDACH/LimitLanguageUsage/addon.json": "545391b87ca2b9cf597ac311665b77dd6df3bdb15c1c7fda615f2cdcd8229d30",
+    "src/addons/XenDACH/LimitLanguageUsage/Listener/EntityStructure.php": "1623b1097a2b24e4aaace02f721bda762583508e54b100c6cf5ec5ad1431eb58",
+    "src/addons/XenDACH/LimitLanguageUsage/Setup.php": "a9995de5a5d3086e74d3ae4c49bc5e46754a727aa1aae427ff1537c126a9eacd",
+    "src/addons/XenDACH/LimitLanguageUsage/XF/Admin/Controller/Language.php": "3b6e864e6cdf5fda79872c0a3309e2a32e7c754bb7a2a3ef25a53cde8fbc7380",
+    "src/addons/XenDACH/LimitLanguageUsage/XF/Entity/Language.php": "5e1550558d2013f261203acda052074118689b99d21a175bca61701cb4802cf6",
+    "src/addons/XenDACH/LimitLanguageUsage/XF/Entity/User.php": "82629cc26804320e4ad769d0bc3f7b71a0728305e59274c154eaf50643afe9b5",
+    "src/addons/XenDACH/LimitLanguageUsage/_data/class_extensions.xml": "3f4ac25e8ccb05c0e3bea812cf9c7b483f4c39e5c95e99df09b740a6bd2b617d",
+    "src/addons/XenDACH/LimitLanguageUsage/_data/code_event_listeners.xml": "075ab51d2712c0186e898816d5b030aaa524720dc77ddf953c2e3633061a1943",
+    "src/addons/XenDACH/LimitLanguageUsage/_data/phrases.xml": "e1aa1d899f06dfe981118b226cf7e1d3dec96db037d28fd587cb716c34ea6657",
+    "src/addons/XenDACH/LimitLanguageUsage/_data/template_modifications.xml": "337f2648d8431f3471bd8a583577b398f41b9973e5849a950bed3aa569a663ac"
+}

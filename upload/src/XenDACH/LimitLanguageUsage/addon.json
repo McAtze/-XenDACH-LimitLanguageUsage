@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "LimitLanguageUsage",
+    "title": "[XenDACH] Limit Language Usage",
+    "description": "A better way to limit the language usage by Users.",
+    "version_id": 1000070,
+    "version_string": "1.0.0",
+    "dev": "XenDACH",
+    "dev_url": "http://www.xendach.de",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": [],
+    "icon": "fa-language"
+}

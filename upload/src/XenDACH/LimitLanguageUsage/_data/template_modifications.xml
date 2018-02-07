@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="account_preferences" modification_key="xd_account_preferences_limitLanguageUsage" execution_order="10" enabled="1" action="preg_replace">
+    <find><![CDATA[/<xf:option value="{\$treeEntry\.record\.language_id}">.*?<\/xf:option>/s]]></find>
+    <replace><![CDATA[<xf:if is="{$treeEntry.record.xd_user_selectable}">$0</xf:if>]]></replace>
+  </modification>
+  <modification type="public" template="language_chooser" modification_key="xd_language_chooser_limitLanguageUsage" execution_order="10" enabled="1" action="preg_replace">
+    <find><![CDATA[/<li>.*?<\/li>/s]]></find>
+    <replace><![CDATA[<xf:if is="{$treeEntry.record.xd_user_selectable}">
+$0
+</xf:if>]]></replace>
+  </modification>
+  <modification type="admin" template="language_edit" modification_key="xd_language_edit_limitLanguageUsage" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:selectrow name="language_code"]]></find>
+    <replace><![CDATA[<xf:checkboxrow>
+	<xf:option label="{{ phrase('allow_user_selection') }}" name="xd_user_selectable" selected="{$language.xd_user_selectable}" />
+</xf:checkboxrow>
+
+$0]]></replace>
+  </modification>
+  <modification type="admin" template="language_list" modification_key="xd_language_list_limitLanguageUsage" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:toggle name="default_language_id"]]></find>
+    <replace><![CDATA[<xf:toggle name="xd_user_selectable[{$language.language_id}]"
+		   selected="$language.xd_user_selectable"
+		   class="dataList-cell--separated u-hideMedium"
+		   submit="true"
+		   tooltip="{{ phrase('enable_disable_x', {'title': $language.title}) }}" />
+
+$0]]></replace>
+  </modification>
+</template_modifications>
