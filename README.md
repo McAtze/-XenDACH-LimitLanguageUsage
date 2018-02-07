@@ -14,4 +14,4 @@ A better way to limit the language usage by Users.
 ![Options#2 in ACP](https://maxcdn.it-maku.com/git/llu/LanguageOptions.png)
 
 Short Video
-[![Options#1 in ACP](https://maxcdn.it-maku.com/git/llu/QuickChoice.png)](https://vimeo.com/254733599)
+![Options#1 in ACP](https://vimeo.com/254733599)
