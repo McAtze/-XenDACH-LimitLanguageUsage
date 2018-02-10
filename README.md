@@ -1,4 +1,6 @@
 # [XenDACH] Limit Language Usage
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/McAtze/-XenDACH-LimitLanguageUsage.svg)](http://isitmaintained.com/project/McAtze/-XenDACH-LimitLanguageUsage "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/McAtze/-XenDACH-LimitLanguageUsage.svg)](http://isitmaintained.com/project/McAtze/-XenDACH-LimitLanguageUsage "Percentage of issues still open")
 
 A better way to limit the language usage by Users. [Short Video on Vimeo](https://vimeo.com/254733599)
 
