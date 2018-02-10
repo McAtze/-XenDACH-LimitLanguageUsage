@@ -8,7 +8,7 @@ class Language extends XFCP_Language
     {
         $form = parent::languageSaveProcess($language);
 
-        $form->setup(function() use ($language) {
+        $form->setup(function () use ($language) {
             $language->xd_user_selectable = $this->filter('xd_user_selectable', 'bool');
         });
 
@@ -18,8 +18,8 @@ class Language extends XFCP_Language
     public function actionToggle()
     {
         $input = $this->filter([
-            'default_language_id' => 'int',
-            'default_language_id_original' => 'int'
+            'default_language_id'          => 'int',
+            'default_language_id_original' => 'int',
         ]);
 
         $language = $this->assertLanguageExists($input['default_language_id']);
@@ -31,6 +31,7 @@ class Language extends XFCP_Language
 
         /** @var \XF\ControllerPlugin\Toggle $plugin */
         $plugin = $this->plugin('XF:Toggle');
+
         return $plugin->actionToggle('XF:Language', 'xd_user_selectable');
     }
 }
