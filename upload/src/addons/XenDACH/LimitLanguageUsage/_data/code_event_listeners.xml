@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <code_event_listeners>
-  <listener event_id="entity_structure" execute_order="10" callback_class="\XenDACH\LimitLanguageUsage\Listener\EntityStructure" callback_method="xfLanguage" active="1" hint="XF\Entity\Language" description="XF\Entity\Language"/>
+  <listener event_id="entity_structure" execute_order="10" callback_class="XenDACH\LimitLanguageUsage\Listener\EntityStructure" callback_method="xfLanguage" active="1" hint="XF\Entity\Language" description="XF\Entity\Language"/>
 </code_event_listeners>

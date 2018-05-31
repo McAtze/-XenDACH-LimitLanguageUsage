@@ -12,7 +12,7 @@ class Setup extends AbstractSetup
 	use StepRunnerInstallTrait;
 	use StepRunnerUpgradeTrait;
 	use StepRunnerUninstallTrait;
-
+	
 	public function installStep1()
     {
         $schemaManager = $this->schemaManager();
@@ -31,7 +31,7 @@ class Setup extends AbstractSetup
         });
 
         $schemaManager->alterTable('xf_language', function(\XF\Db\Schema\Alter $table) {
-//            $table->changeColumn('xd_user_selectable', 'bool')->setDefault(1);
+		// $table->changeColumn('xd_user_selectable', 'bool')->setDefault(1);
         });
     }
 

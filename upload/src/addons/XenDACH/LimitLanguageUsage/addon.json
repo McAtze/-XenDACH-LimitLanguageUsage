@@ -1,19 +1,23 @@
 {
-    "legacy_addon_id": "LimitLanguageUsage",
+    "legacy_addon_id": "",
     "title": "[XenDACH] Limit Language Usage",
     "description": "A better way to limit the language usage by Users.",
-    "version_id": 1000070,
-    "version_string": "1.0.0",
+    "version_id": 2000070,
+    "version_string": "2.0.0",
     "dev": "XenDACH",
-    "dev_url": "http://www.xendach.de",
+    "dev_url": "https://www.xendach.de",
     "faq_url": "",
     "support_url": "https://github.com/McAtze/-XenDACH-LimitLanguageUsage/issues",
-    "extra_urls": {
-    	"Issue Tracker": "https://github.com/McAtze/-XenDACH-LimitLanguageUsage/issues"
-    },
+    "extra_urls": [],
     "require": {
-        "XF": [2000010, "XenForo 2.0.0+"],
-        "php": ["5.5.0", "PHP 5.5.0+"]
+        "XF": [
+            2000010,
+            "XenForo 2.0.0+"
+        ],
+        "php": [
+            "5.6.0",
+            "PHP 5.6.0+"
+        ]
     },
     "icon": "fa-language"
 }
