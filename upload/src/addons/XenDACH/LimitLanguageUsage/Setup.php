@@ -29,10 +29,6 @@ class Setup extends AbstractSetup
         $schemaManager->alterTable('xf_language', function(\XF\Db\Schema\Alter $table) {
             $table->renameColumn('user_selectable', 'xd_user_selectable')->type('bool')->setDefault(1);
         });
-
-        $schemaManager->alterTable('xf_language', function(\XF\Db\Schema\Alter $table) {
-	// $table->changeColumn('xd_user_selectable', 'bool')->setDefault(1);
-        });
     }
 
     public function uninstallStep1()
