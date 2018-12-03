@@ -18,5 +18,6 @@ You may also choose to support the author directly with a voluntary donation in 
 
 ## Screenshots
 
+!(https://maxcdn.it-maku.com/git/LLU/QuickChoice.png)
 [![Options#1 in ACP](https://maxcdn.it-maku.com/git/LLU/QuickChoice.png)]
 [![Options#2 in ACP](https://maxcdn.it-maku.com/git/LLU/LanguageOptions.png)]
