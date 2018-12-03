@@ -3,4 +3,6 @@
   <extension from_class="XF\Admin\Controller\Language" to_class="XenDACH\LimitLanguageUsage\XF\Admin\Controller\Language" execute_order="10" active="1"/>
   <extension from_class="XF\Entity\Language" to_class="XenDACH\LimitLanguageUsage\XF\Entity\Language" execute_order="10" active="1"/>
   <extension from_class="XF\Entity\User" to_class="XenDACH\LimitLanguageUsage\XF\Entity\User" execute_order="10" active="1"/>
+  <extension from_class="XF\Pub\Controller\Account" to_class="XenDACH\LimitLanguageUsage\XF\Pub\Controller\Account" execute_order="10" active="1"/>
+  <extension from_class="XF\Pub\Controller\Misc" to_class="XenDACH\LimitLanguageUsage\XF\Pub\Controller\Misc" execute_order="10" active="1"/>
 </class_extensions>

@@ -28,4 +28,10 @@ $0]]></replace>
 
 $0]]></replace>
   </modification>
+  <modification type="admin" template="language_list" modification_key="xd_language_list_stylingList" execution_order="20" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:cell>&nbsp;</xf:cell>]]></find>
+    <replace><![CDATA[$0
+			<xf:cell>&nbsp;</xf:cell>
+]]></replace>
+  </modification>
 </template_modifications>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <phrases>
+  <phrase title="xd_invalid_style" version_id="2001070" version_string="2.0.1" global_cache="1"><![CDATA[Invalid Style]]></phrase>
   <phrase title="xd_it_is_not_possible_to_prevent_users_selecting_the_default_language_limitLanguageUsage" version_id="2000010" version_string="2.0.0 Alpha" global_cache="1"><![CDATA[It is not possible to prevent users from selecting the default language.]]></phrase>
 </phrases>
