@@ -18,5 +18,5 @@ You may also choose to support the author directly with a voluntary donation in 
 
 ## Screenshots
 
-![Options#1 in ACP](https://maxcdn.it-maku.com/git/LLU/QuickChoice.png)
-![Options#2 in ACP](https://maxcdn.it-maku.com/git/LLU/LanguageOptions.png)
+![Options#1 in ACP](https://github.com/McAtze/-XenDACH-LimitLanguageUsage/blob/master/Screenshots/QuickChoice.png)
+![Options#2 in ACP](https://github.com/McAtze/-XenDACH-LimitLanguageUsage/blob/master/Screenshots/LanguageOptions.png)
