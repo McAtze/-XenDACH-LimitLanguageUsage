@@ -8,9 +8,16 @@ class Language extends XFCP_Language
     {
         $form = parent::languageSaveProcess($language);
 
-        $form->setup(function() use ($language) {
-            $language->xd_user_selectable = $this->filter('xd_user_selectable', 'bool');
-        });
+        if (!$this->filter('xd_user_selectable', 'bool') && $language->language_id == $this->options()->defaultLanguageId)
+        {
+            $form->logError(\XF::phrase('xd_it_is_not_possible_to_prevent_users_selecting_the_default_language_limitLanguageUsage'));
+        }
+        else
+        {
+            $form->setup(function() use ($language) {
+                $language->xd_user_selectable = $this->filter('xd_user_selectable', 'bool');
+            });
+        }
 
         return $form;
     }
@@ -19,12 +26,19 @@ class Language extends XFCP_Language
     {
         $input = $this->filter([
             'default_language_id' => 'int',
-            'default_language_id_original' => 'int'
+            'xd_user_selectable' => 'array'
         ]);
 
-        $language = $this->assertLanguageExists($input['default_language_id']);
-        if (!$language->xd_user_selectable) {
+        $languageDefault = $this->assertLanguageExists($input['default_language_id']);
+        if (!$languageDefault->xd_user_selectable) {
             return $this->error(\XF::phrase('xd_it_is_not_possible_to_prevent_users_selecting_the_default_language_limitLanguageUsage'));
+        }
+
+        foreach ($input['xd_user_selectable'] as $key => $value)
+        {
+            $languageSelectable = $this->assertLanguageExists($key);
+            if ($languageSelectable->language_id == $languageDefault->language_id && !$value)
+                return $this->error(\XF::phrase('xd_it_is_not_possible_to_prevent_users_selecting_the_default_language_limitLanguageUsage'));
         }
 
         parent::actionToggle();
