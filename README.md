@@ -1,5 +1,4 @@
 # [XenDACH] Limit Language Usage
-[![StyleCI](https://styleci.io/repos/120658819/shield?branch=master)](https://styleci.io/repos/120658819)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/McAtze/-XenDACH-LimitLanguageUsage.svg)](http://isitmaintained.com/project/McAtze/-XenDACH-LimitLanguageUsage "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/McAtze/-XenDACH-LimitLanguageUsage.svg)](http://isitmaintained.com/project/McAtze/-XenDACH-LimitLanguageUsage "Percentage of issues still open")
 
