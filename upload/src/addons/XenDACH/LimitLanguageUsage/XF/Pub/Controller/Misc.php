@@ -10,7 +10,7 @@ class Misc extends XFCP_Misc
         {
             $visitor = \XF::visitor();
 
-            $language = $this->app->language($this->filter('language_id', 'uint'));
+            $language = $this->em()->find('XF:Language', $this->filter('language_id', 'uint'));
 
             //$redirect = $this->getDynamicRedirect(null, true);
 
