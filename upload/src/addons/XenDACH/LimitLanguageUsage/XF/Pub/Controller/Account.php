@@ -14,7 +14,7 @@ class Account extends XFCP_Account
             ]
         ]);
 
-        $language = $this->app->language($input['user']['language_id']);
+        $language = $this->em()->find('XF:Language', $input['user']['language_id']);
 
         if (!$language->xd_user_selectable)
         {
