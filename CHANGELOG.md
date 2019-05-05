@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### 2.0.3 - 12/16/18
+* [Fix] Issue with language caching (https://xenforo.com/community/threads/xendach-limitlanguageusage.142506/post-1306265)
+
 ### 2.0.2 - 12/05/18
 * [Add] Prevent for enabling/disabling default language during editing language
 * [Add] Prevent for disabling default language in ACP language list
