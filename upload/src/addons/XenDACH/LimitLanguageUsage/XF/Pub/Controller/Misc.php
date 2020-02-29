@@ -14,7 +14,7 @@ class Misc extends XFCP_Misc
 
             //$redirect = $this->getDynamicRedirect(null, true);
 
-            if (!$visitor->is_admin && !$language->xd_user_selectable)
+            if (!$language || (!$visitor->is_admin && !$language->xd_user_selectable))
             {
                 //return $this->redirect($redirect);
                 return $this->noPermission();
